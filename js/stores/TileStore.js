@@ -4,6 +4,8 @@ var TileConstants = require('../constants/TileConstants');
 var assign = require('object-assign');
 var _ = require('lodash');
 
+var fixture = require('../fixtures/tiles.json');
+
 var CHANGE_EVENT = 'change';
 
 
@@ -11,18 +13,13 @@ var _tiles = [];
 
 
 function generateTiles() {
-    var images = [];
-    for (var i = 1; i < 9; i++) {
-        images.push("images/" + i + ".jpg");
-    }
-    images = _.shuffle(images);
-    images = images.concat(images);
-    for (var i = 0; i < images.length; i++) {
-        _tiles.push({
-            image: images[i],
+    var tiles = _.shuffle(fixture.slice(0));
+    for (var i = 0; i < tiles.length; i++) {
+        _tiles.push(_.extend({}, tiles[i], {
+            id: i,
             flipped: false,
             matched: false
-        });
+        }));
     }
 }
 
@@ -52,7 +49,7 @@ function matchCheck() {
 
     if (flipped.length < 2) return;
 
-    if (_tiles[flipped[0]].image === _tiles[flipped[1]].image) {
+    if (_tiles[flipped[0]].animal === _tiles[flipped[1]].animal) {
         _tiles[flipped[0]].matched = true;
 
         _tiles[flipped[1]].matched = true;

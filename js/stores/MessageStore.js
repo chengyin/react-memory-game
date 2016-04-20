@@ -7,8 +7,8 @@ var TileStore = require('./TileStore');
 var CHANGE_EVENT = 'change';
 
 var _messages = {
-    choosetile: 'Choose a tile!',
-    findmate: 'Now try to find the matching tile!',
+    choosetile: 'Flip the cards to see their spirit animal',
+    findmate: 'Now try to find the matching card!',
     wrong: 'Sorry, those didn\'t match!',
     foundmate: 'Yey, they matched!',
     foundall: 'You\'ve found all pairs! Well done!'
@@ -49,7 +49,7 @@ function updateMessage() {
         return;
     }
 
-    if (tiles[flipped[0]].image === tiles[flipped[1]].image) {
+    if (tiles[flipped[0]].animal === tiles[flipped[1]].animal) {
 
         _message = _messages.foundmate;
 
@@ -106,4 +106,3 @@ MessageStore.dispatchToken = AppDispatcher.register(function (action) {
 });
 
 module.exports = MessageStore;
-

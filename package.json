@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "A memory card built with React.js",
   "dependencies": {
+    "amdefine": "^1.0.0",
     "envify": "^3.0.0",
     "flux": "^2.0.1",
     "lodash": "^3.0.1",

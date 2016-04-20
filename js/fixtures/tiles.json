@@ -1,0 +1,194 @@
+[
+  {
+    "lastName": "Martin",
+    "firstName": "Peter",
+    "email": "Peter.Martin@airbnb.com",
+    "base": "New York",
+    "role": "Digital Platform Developer",
+    "animal": "Monkey"
+  },
+  {
+    "lastName": "Wolfe",
+    "firstName": "Brian",
+    "email": "Brian.Wolfe@airbnb.com",
+    "base": "New York",
+    "role": "Software Engineer",
+    "animal": "Orca"
+  },
+  {
+    "lastName": "Williams",
+    "firstName": "Mars",
+    "email": "Mars.Williams@airbnb.com",
+    "base": "San Francisco",
+    "role": "Data Engineer",
+    "animal": "Platypus"
+  },
+  {
+    "lastName": "Linshi",
+    "firstName": "Jack",
+    "email": "Jack.Linshi@airbnb.com",
+    "base": "San Francisco",
+    "role": "Data Researcher & Writer",
+    "animal": "Panther"
+  },
+  {
+    "lastName": "Zhou",
+    "firstName": "Yitong",
+    "email": "Yitong.Zhou@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "T-Rex"
+  },
+  {
+    "lastName": "Dai",
+    "firstName": "Peng",
+    "email": "Peng.Dai@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Dragon"
+  },
+  {
+    "lastName": "He",
+    "firstName": "Weibo",
+    "email": "Weibo.He@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Panda"
+  },
+  {
+    "lastName": "Ding",
+    "firstName": "Chen",
+    "email": "Chen.Ding@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Sea Turtle"
+  },
+  {
+    "lastName": "Deschamps",
+    "firstName": "Manuel",
+    "email": "Manuel.Deschamps@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Eagle"
+  },
+  {
+    "lastName": "Su",
+    "firstName": "Jerry",
+    "email": "Jerry.Su@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Racoon"
+  },
+  {
+    "lastName": "Alavizadeh",
+    "firstName": "Fatemeh",
+    "email": "Fatemeh.Alavizadeh@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Panda"
+  },
+  {
+    "lastName": "Dabriwal",
+    "firstName": "Shashank",
+    "email": "Shashank.Dabriwal@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Panther"
+  },
+  {
+    "lastName": "Sobel",
+    "firstName": "Jason",
+    "email": "Jason.Sobel@airbnb.com",
+    "base": "San Francisco",
+    "role": "Engineering Manager",
+    "animal": "Platypus"
+  },
+  {
+    "lastName": "Lou",
+    "firstName": "Yin",
+    "email": "Yin.Lou@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Liger"
+  },
+  {
+    "lastName": "Liu",
+    "firstName": "Chengyin",
+    "email": "Chengyin.Liu@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Dragon"
+  },
+  {
+    "lastName": "Zhang",
+    "firstName": "Tang",
+    "email": "Tang.Zhang@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Dolphin"
+  },
+  {
+    "lastName": "Ho",
+    "firstName": "Jamie",
+    "email": "Jamie.Ho@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Eagle"
+  },
+  {
+    "lastName": "Subbaroyan",
+    "firstName": "Ram",
+    "email": "Ram.Subbaroyan@airbnb.com",
+    "base": "San Francisco",
+    "role": "Engineering Manager",
+    "animal": "Dolphin"
+  },
+  {
+    "lastName": "Qureshi",
+    "firstName": "Haseeb",
+    "email": "Haseeb.Qureshi@airbnb.com",
+    "base": "San Francisco",
+    "role": "Software Engineer",
+    "animal": "Monkey"
+  },
+  {
+    "lastName": "Pourshian",
+    "firstName": "Poyan",
+    "email": "Poyan.Pourshian@airbnb.com",
+    "base": "San Francisco",
+    "role": "Experience Designer",
+    "animal": "Racoon"
+  },
+  {
+    "lastName": "Roth",
+    "firstName": "Nicholas (Nick)",
+    "email": "Nick.Roth@airbnb.com",
+    "base": "San Francisco",
+    "role": "Manager, Strategic Development",
+    "animal": "Sea Turtle"
+  },
+  {
+    "lastName": "Blanton",
+    "firstName": "Clay",
+    "email": "Clay.Blanton@airbnb.com",
+    "base": "San Francisco",
+    "role": "QA Lead - Enterprise Applications",
+    "animal": "Orca"
+  },
+  {
+    "lastName": "Alexander",
+    "firstName": "Ashley",
+    "email": "Ashley.Alexander@airbnb.com",
+    "base": "San Francisco",
+    "role": "Talent Partner",
+    "animal": "T-Rex"
+  },
+  {
+    "lastName": "Houser",
+    "firstName": "Cameron (Cammy)",
+    "email": "Cammy.Houser@airbnb.com",
+    "base": "San Francisco",
+    "role": "Regional Market Manager - Mid Atlantic",
+    "animal": "Liger"
+  }
+]

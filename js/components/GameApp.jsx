@@ -39,7 +39,7 @@ var GameApp = React.createClass({
             this.setState({
                 isWaiting: false
             });
-        }.bind(this), 2000);
+        }.bind(this), 4000);
     },
     render: function () {
         // This section should be hidden by default
@@ -53,11 +53,12 @@ var GameApp = React.createClass({
 
         for (var id in allTiles) {
             id = parseInt(id);
-            tiles.push(<Tile key={id} onTileClick={this.onTileClick} id={id} image={allTiles[id].image} flipped={allTiles[id].flipped} />);
+            tiles.push(<Tile key={id} onTileClick={this.onTileClick} {...allTiles[id]} />);
         }
 
         return (
             <section id="main">
+                <h1>Airbnb Bootcamp 4/18/16 Matching Game</h1>
                 <Status message={this.state.message} />
                 {tiles}
             </section>

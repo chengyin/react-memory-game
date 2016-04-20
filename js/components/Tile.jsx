@@ -4,19 +4,13 @@ var ReactAddons = require('react/addons');
 var cx = ReactAddons.addons.classSet;
 
 var Tile = React.createClass({
-    propTypes: {
-        id: React.PropTypes.number.isRequired,
-        image: React.PropTypes.string.isRequired,
-        flipped: React.PropTypes.bool.isRequired,
-        onTileClick: React.PropTypes.func.isRequired
-    },
     onClick: function () {
         this.props.onTileClick(this.props.id);
     },
     render: function () {
 
         var backStyle = {
-            backgroundImage: 'url(' + this.props.image + ')'
+            // backgroundImage: 'url(' + this.props.image + ')'
         }
 
         return (
@@ -27,8 +21,14 @@ var Tile = React.createClass({
                         'flipped': this.props.flipped
                     })}
                     onClick={this.onClick}>
-                    <div className="front"></div>
-                    <div style={backStyle} className="back"></div>
+                    <div className="front">
+                      {this.props.firstName}
+                      {' '}
+                      {this.props.lastName}
+                    </div>
+                    <div style={backStyle} className="back">
+                      {this.props.animal}
+                    </div>
                 </div>
             </div>
         );
